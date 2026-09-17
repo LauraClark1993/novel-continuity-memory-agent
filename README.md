@@ -79,7 +79,7 @@ novel-continuity-memory-agent/
 要求Python 3.11—3.13。
 
 ```powershell
-git clone <your-repository-url>
+git clone https://github.com/LauraClark1993/novel-continuity-memory-agent.git
 cd novel-continuity-memory-agent
 python -m pip install -e ".[dev]"
 $env:DEEPSEEK_API_KEY = Read-Host "请输入 DeepSeek API Key"
