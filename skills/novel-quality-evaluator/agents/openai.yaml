@@ -1,0 +1,4 @@
+interface:
+  display_name: "小说独立质量评估器"
+  short_description: "为小说生成结果提供独立、证据化、可汇总的质量评测报告"
+  default_prompt: "使用 $novel-quality-evaluator 对已生成章节执行独立证据化评测并输出汇总。"

@@ -1,0 +1,42 @@
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+
+# Secrets
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Databases and runtime state
+*.db
+*.db-wal
+*.db-shm
+data/
+outputs/
+outputs_v2/
+**/outputs/
+**/agent_input/
+**/evaluation_only/
+batch_progress.json
+*_progress.json
+
+# Raw or copyrighted datasets
+datasets/
+raw_data/
+**/原始数据/
+full_novel_data.json
+
+# Local experiment manifests may contain machine-specific paths
+experiment_manifest.json
+!experiment_manifest.example.json
+
+# Editors and operating systems
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+

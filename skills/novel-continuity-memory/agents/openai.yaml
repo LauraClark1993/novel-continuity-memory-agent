@@ -1,0 +1,7 @@
+interface:
+  display_name: "长篇小说一致性记忆"
+  short_description: "为长篇小说提供检索上下文、状态更新、续跑与成本控制"
+  default_prompt: "Use $novel-continuity-memory to continue a long-form novel with retrieval-based context and consistency state."
+
+policy:
+  allow_implicit_invocation: true

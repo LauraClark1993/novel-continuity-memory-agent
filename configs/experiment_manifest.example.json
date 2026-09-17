@@ -1,0 +1,21 @@
+{
+  "books": [
+    {
+      "stage": 1,
+      "genre": "示例题材",
+      "book_id": "book_001",
+      "title": "示例小说",
+      "author": "示例作者",
+      "database": "data/experiments/stage_01/book_001.db",
+      "manuscript": "private_data/book_001/initial_4_chapters.md",
+      "outline": "private_data/book_001/local_outline.md",
+      "reference": "private_data/book_001/reference_chapters.md",
+      "chapter_map": "private_data/book_001/chapter_map.json",
+      "output": "outputs/experiments/book_001",
+      "novel_id": 1,
+      "generation_start": 5,
+      "generation_end": 10
+    }
+  ]
+}
+
